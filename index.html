@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="styles/12-todo-list.css">
+</head>
+
+<body background="todo.webp">
+    <div class="todo-list-major">
+        <div class="todo-list-container container  my-5">
+            <div class=" container ">
+                <div class="todo-list-box row">
+                    <div class="col-12">
+                        <p class="list-title text-center">Simple Todo List</p>
+                    </div>
+                </div>
+            </div>
+            <div class="todo-input-grid container  my-5">
+                <div class="row gy-3">
+                    <div class="col-lg-4 col-xs-7 d-flex justify-content-center align-items-center"> <input
+                            class="js-name-input name-input" placeholder="Todo name" onkeydown="handleTodoKeydown(event);">
+                    </div>
+                    <div class="col-lg-4 col-xs-5 d-flex justify-content-center align-items-center"><input type="date"
+                            class="js-due-date-input due-date-input name-input"></div>
+                    <div class="col-lg-4 col-xs-12 text-center"><button
+                            class="add-todo-button js-add-todo-button">Add</button></div>
+                </div>
+            </div>
+            <div class="container ">
+                <div class="js-todo-list todo-grid row">
+    
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+
+
+
+
+    <!--Footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            Copyright &copy; 2023 by Fred Pekyi | All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="scripts/12-todo-list.js"></script>
+</body>
+
+</html>
